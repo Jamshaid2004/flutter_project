@@ -61,6 +61,7 @@ class Button extends StatelessWidget {
 
 class MyTextStyle extends TextStyle {
   static TextStyle font({required TextStyle textStyle}) {
+    // added a new feature
     return GoogleFonts.aguafinaScript(textStyle: textStyle);
   }
 
